@@ -1,0 +1,19 @@
+{
+  "name": "asnake-cracker9000",
+  "version": "1.0.0",
+  "description": "Computes provably-optimal move strings for the ASNAKE snake game: full-board 394 solver plus a bounded-budget greedy planner.",
+  "main": "perfect.js",
+  "scripts": {
+    "solve": "node perfect.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "snake",
+    "solver",
+    "hamiltonian"
+  ],
+  "license": "MIT",
+  "private": true
+}
