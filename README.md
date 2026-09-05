@@ -1,7 +1,7 @@
 # asnake-cracker9000
 
 computes provably-optimal move strings for the snake game at
-https://asnake.tx24.dev/ — the one where the snake's body spells `ASNAKE`.
+https://asnake.tx24.dev/ 
 
 no dependencies, no npm install. just node 22+.
 
@@ -39,11 +39,6 @@ node -e "const {plan}=require('./final.js'); const p=plan(<seed>, <budget>); con
 
 `plan()` returns `{ moves, score, status, len }` — moves is the string.
 
-## what it deliberately doesn't do
-
-no submission code. no api calls. no leaderboard. no discord. getting a run's
-seed and doing something with the moves string is left entirely to you — that
-part can be used for nefarious things, so it stays out of this repo.
 
 ## requirements
 
